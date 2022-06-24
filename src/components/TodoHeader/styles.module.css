@@ -1,0 +1,26 @@
+.todoHeader {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoHeader p span {
+  border-radius: 999px;
+  background: var(--gray-400);
+  font-weight: 600;
+  color: var(--gray-200);
+  padding: 2px 8px;
+  margin-left: 12px;
+}
+
+.titleTodo {
+  color: var(--blue);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.titleTodoCompleted {
+  color: var(--purple);
+  font-size: 15px;
+  font-weight: 600;
+}
